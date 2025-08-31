@@ -1,5 +1,6 @@
 {
   "name": "developer-homepage",
+  "homepage": "https://Raulmora22.github.io/DevDash/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -20,6 +23,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
+    "gh-pages": "^6.3.0",
     "i18next": "^25.4.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "lucide-react": "^0.542.0",
