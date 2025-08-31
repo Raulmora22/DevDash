@@ -1,0 +1,18 @@
+{
+  "SaveButton": "Save",
+  "CloseButton": "Close",
+  "AddBookmarkButton": "Add Bookmark",
+  "EditButton": "Edit",
+  "DeleteButton": "Delete",
+
+  "BookmarkName": "Bookmark Name",
+  "BookmarkURL": "Bookmark URL",
+
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System",
+
+  "SettingsPage": "Settings",
+
+  "Language": "Language"
+}

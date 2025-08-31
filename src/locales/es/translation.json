@@ -1,0 +1,18 @@
+{
+  "SaveButton": "Guardar",
+  "CloseButton": "Cerrar",
+  "AddBookmarkButton": "Agregar marcador",
+  "EditButton": "Editar",
+  "DeleteButton": "Eliminar",
+
+  "BookmarkName": "Nombre del marcador",
+  "BookmarkURL": "URL del marcador",
+
+  "light": "Claro",
+  "dark": "Oscuro",
+  "system": "Sistema",
+
+  "SettingsPage": "Configuración",
+
+  "Language": "Idioma"
+}
