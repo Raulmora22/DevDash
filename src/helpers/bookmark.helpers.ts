@@ -1,5 +1,11 @@
+declare const chrome: {
+  runtime?: {
+    getURL(path: string): string;
+  };
+};
+
 export function getFavicon(u: string, size: string = "32") {
-  const regex = /^.+?[^\/:](?=[?\/]|$)/;
+  const regex = /^.+?[^/:](?=[?/]|$)/;
   const baseUrl = u.match(regex);
 
   if (!chrome.runtime) {
